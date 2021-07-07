@@ -24,6 +24,7 @@ class LambdaDemo extends Component {
       <p>
         <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Call Lambda"}</button>
         <button onClick={this.handleClick("async-dadjoke")}>{loading ? "Loading..." : "Call Async Lambda"}</button>
+        <button onClick={this.handleClick("not")}>{loading ? "Loading..." : "Call Notion DB"}</button>
         <br />
         <span>{msg}</span>
       </p>
